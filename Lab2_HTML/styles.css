@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(233, 107, 151);
+    text-align: left ;
+    font-family: 'Arial', sans-serif; 
+}
+
+h2 {
+    color: rgb(233, 77, 145); 
+    text-align: left;  
+    font-family: 'Arial', sans-serif;
+    
+}
+
+p {
+    color: rgb(239, 81, 79); 
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
