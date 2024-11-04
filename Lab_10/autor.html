@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=PT+Sans+Narrow:wght@400;700&family=Pacifico&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="icon"  sizes="16x16"  href="flower.ico">
+</head>
+<body>
+
+    <header>
+        <h1>Flowers shop</h1>
+        <nav>
+            <a href="#flowers" onclick="smoothScroll(event, '#flowers')">Види квітів (вроздріб)</a>
+            <a href="#bouquets" onclick="smoothScroll(event, '#bouquets')">Букети</a>
+            <a href="#contact" onclick="smoothScroll(event, '#contact')">Зв'язок з нами</a>
+            <a href="#reviews" onclick="smoothScroll(event, '#reviews')">Відгуки</a>
+        </nav>
+    </header>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Пошук вашого букету">
+        <button>Пошук</button>
+    </div>
+
+    <main>
+        <section class="hero">
+    
+                <p class="Flowers">
+                    Квіти – це унікальний дар природи, що має здатність прикрасити будь-який момент і принести радість у повсякденне життя. Вони символізують красу, кохання, ніжність, а також передають особливі емоції, коли слова бувають зайвими. Залежно від виду та кольору, квіти мають своє значення: троянди говорять про пристрасть, ромашки асоціюються з чистотою, а лілії вважаються символом величі й благородства.
+                    Магазин квітів – це місце, де кожен може знайти ідеальний букет для будь-якої події: дня народження, весілля, ювілею чи просто для підняття настрою близькій людині. У квітковому магазині досвідчені флористи допомагають вибрати композицію, яка якнайкраще відображатиме задумане почуття або нагоду. Крім свіжих квітів, тут часто пропонують кімнатні рослини, декоративні вазони та навіть подарункові набори. Це створює можливість обрати не просто квіти, а справжню композицію, яка залишиться у пам’яті надовго.</p>
+          </section>
+          <div id="bouquets" class="section">
+            <h2>Букети</h2>
+        </div>
+
+        <section class="bouquets">
+            <div class="bouquet">
+                <img src="https://tea-rose.com.ua/img/products/1678111676_83711.jpg" alt="Чайна троянда">
+                <p>6500 грн.<br>Чайна троянда</p>
+            </div>
+            <div class="bouquet">
+                <img src="https://paradise.kiev.ua/image/cache/product_images/fer-3186-151-prestige-1000x1000.jpg" alt="151 троянда">
+                <p>12835 грн.<br>151 троянда</p>
+            </div>
+            <div class="bouquet">
+                <img src="https://makemehappy.com.ua/content/images/20/700x700l80mc0/84668172789967.jpeg" alt="Півонія 45 шт.">
+                <p>10775 грн.<br>Півонія 45 шт.</p>
+            </div>
+            <div class="bouquet">
+                <img src="https://florina.ua/image/cache/catalog/kategorii/cvety/gortenzii/gortenzii-skajkolor-1-684x684.jpg" alt="Гортензія 9 шт.">
+                <p>4930 грн.<br>Гортензія 9 шт.</p>
+            </div>
+        </section>
+    </main>
+
+    <div id="flowers" class="section">
+        <h2>Види квітів (вроздріб)</h2>
+    </div>
+
+    <div class="flower-container">
+        <div class="flower-box">
+            <img src="https://i.pinimg.com/564x/0d/46/c8/0d46c8dc72146945eea54dde82a0ef92.jpg" alt="Rose" class="flower-image">
+            <div class="flower-details">
+                <div class="flower-name">Троянди</div>
+                <div class="flower-price">Ціна: 50 грн/шт</div>
+            </div>
+        </div>
+
+        <div class="flower-box">
+            <img src="https://i.pinimg.com/736x/8a/de/04/8ade0450f211821860ace7fb7883cc6d.jpg" alt="Lily" class="flower-image">
+            <div class="flower-details">
+                <div class="flower-name">Лілії</div>
+                <div class="flower-price">Ціна: 70 грн/шт</div>
+            </div>
+        </div>
+
+        <div class="flower-box">
+            <img src="https://i.pinimg.com/564x/b1/8e/be/b18ebef52e906b88646876a5e537b247.jpg" alt="Chamomile" class="flower-image">
+            <div class="flower-details">
+                <div class="flower-name">Ромашки</div>
+                <div class="flower-price">Ціна: 40 грн/шт</div>
+            </div>
+        </div>
+
+        <div class="flower-box">
+            <img src="https://i.pinimg.com/564x/9e/29/15/9e2915373a9d3067f7509d698fc7f956.jpg" alt="Півонія" class="flower-image">
+            <div class="flower-details">
+                <div class="flower-name">Півонія</div>
+                <div class="flower-price">Ціна: 120 грн/шт</div>
+            </div>
+        </div>
+
+        <div class="flower-box">
+            <img src="https://i.pinimg.com/736x/e2/62/c6/e262c6e2fffe258ede26b417c589f525.jpg" alt="Гортензія" class="flower-image">
+            <div class="flower-details">
+                <div class="flower-name">Гортензія</div>
+                <div class="flower-price">Ціна: 180 грн/шт</div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="section">
+        <h2>Зв'язок з нами</h2>
+    </div>
+
+<section class="social">
+    <a href="https://www.instagram.com/flowers_shop" target="_blank">
+        <img src="https://i.pinimg.com/564x/72/ed/70/72ed706827083e95edb0cc53c39d3531.jpg" alt="Instagram"> @flowers_shop
+    </a>
+    <a href="https://www.facebook.com/flowers_shop" target="_blank">
+        <img src="https://i.pinimg.com/736x/83/43/46/83434653023e0dc7d667b7f3aececfca.jpg" alt="Facebook"> Flowers shop
+    </a>
+</section>
+</body>
+</html>
